@@ -1,18 +1,21 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './LoginForm.css';
 
 function LoginForm() {
     return (
-        <section className="h-100" style={{ backgroundColor: "#f7f7f7" }}>
-            <div className="container py-5 h-100">
-                <div className="row d-flex justify-content-center align-items-center h-100">
+        <section
+            className="full-page d-flex align-items-center justify-content-center"
+        >
+            <div className="container">
+                <div className="row d-flex justify-content-center align-items-center">
                     <div className="col-md-8 col-lg-6">
                         <div className="card shadow-sm">
                             <div className="row g-0">
                                 {/* Left side - Form */}
                                 <div className="col-12 col-md-6">
                                     <div className="card-body p-4">
-                                        <h4>Please login to your account</h4>
+                                        <h4>Login to your account</h4>
                                         <form>
                                             <div className="mb-4">
                                                 <label className="form-label" htmlFor="email-input">Username</label>
@@ -20,7 +23,7 @@ function LoginForm() {
                                                     type="email"
                                                     id="email-input"
                                                     className="form-control"
-                                                    placeholder="Phone number or email address"
+                                                    placeholder="Username"
                                                 />
                                             </div>
 
@@ -48,7 +51,7 @@ function LoginForm() {
                                 </div>
 
                                 {/* Right side - Text with colored background */}
-                                <div className="col-12 col-md-6" style={{ backgroundColor: "#6c757d" }}>
+                                <div className=" right-panel col-12 col-md-6">
                                     <div className="text-white px-4 py-5">
                                         <h5>Welcome to Our Platform</h5>
                                         <p className="small mb-0">
@@ -63,6 +66,6 @@ function LoginForm() {
             </div>
         </section>
     );
-};
+}
 
 export default LoginForm;

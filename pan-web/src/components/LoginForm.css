@@ -1,0 +1,36 @@
+/* LoginForm.css */
+section.full-page {
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.btn-primary {
+    border-radius: 10px;
+    background: #007bff;
+    border: none;
+}
+
+.input-group-text {
+    background: #f7f7f7;
+    border-right: 0;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.right-panel {
+    background: #007bff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
