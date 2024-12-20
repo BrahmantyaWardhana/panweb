@@ -18,7 +18,6 @@ function LoginForm() {
                                         <h4>Login to your account</h4>
                                         <form>
                                             <div className="mb-4">
-                                                <label className="form-label" htmlFor="email-input">Username</label>
                                                 <input
                                                     type="email"
                                                     id="email-input"
@@ -28,7 +27,6 @@ function LoginForm() {
                                             </div>
 
                                             <div className="mb-4">
-                                                <label className="form-label" htmlFor="password-input">Password</label>
                                                 <input
                                                     type="password"
                                                     id="password-input"
